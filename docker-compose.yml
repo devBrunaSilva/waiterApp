@@ -35,7 +35,7 @@ services:
 
   node_backend:
     image: node
-    container_name: waiterApp_backend
+    container_name: waiterApp
     ports:
       - 3000:3000
       - 3001:3001
